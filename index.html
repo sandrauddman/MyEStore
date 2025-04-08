@@ -1,36 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        ul{
-            list-style-type: none;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+    <link rel='icon' href='Images/favicon.ico' type='image/x-icon'/ >
 
-        }
-        li{
-            float: left;
-            margin-right: 8px;
-        }
-    </style>
-</head>
-<body>
-    <h3>Welcome to E-store</h3>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
-    </ul>
-    <hr>
-    <br>
-    <p>Welcome home to the navigation place to be. <br> Hopefully from here your journey to travel onwards will
-     be simple.</p>
-     
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/o7TuYvfYn_c?si=_mgmiDviO85_ABZw&amp;start=77&amp;clip=UgkxJ2WBMtzpWjThmEr94sgGqR0HkzB3wKXZ&amp;clipt=ELDhBBi4iAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    <!--En font som vi denna gång hämtar från google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Enköpingsbilvård</title>
+  </head>
+
+  <body>
+	<div class="menu">
+			
+			<ul>
+				<li><a href="index.html"><button>Home</button></a></li>
+				<li><a href="about.html"><button>About</button></a></li>
+				<li><a href="products.html"><button>Products</button></a></li>
+				<li><a href="profile.html"><button>Profile</button></a></li>
+				<li><a href="contacts.html"><button>Contacts</button></a></li>
+			</ul>
+			<br>
+	</div>
+    <!-- Här finns all HTML-kod som har med toppen på sidan att göra. Kom
+      ihåg att du hittar bilden i CSS-filen -->
+    <header>
+      <div class="container">
+        <h1>
+          Enköpings bästa och mest prisvärda bilvårdsservice.Låt proffsen göra jobbet.
+        </h1>
+        <a href="#">Prislista</a>
+      </div>
+    </header>
+
+    <!-- Här finns all HTML-kod som har med de tre ikonerna att göra -->
+    <section class="what-we-do">
+      <div class="container">
+        <h2>Några av våra tjänster</h2>
+
+        <div class="icons">
+          <div class="icon">
+            <img src="./images/hose-with-drops-svgrepo-com.svg" />
+            <h3>Tvätt</h3>
+            <p>Vi erbjuder heltvätt, tvätt ut och invädigt, motortvätt och klädseltvätt</p>
+          </div>
+
+          <div class="icon">
+            <img src="./images/car-svgrepo-com.svg" />
+            <h3>Rekond</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+
+          <div class="icon">
+            <img src="./images/shine-1-svgrepo-com.svg" />
+            <h3>Lackskydd</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Här finns all HTML-kod som har med "about us"-sektionen att göra -->
+    <section class="about-us">
+      <div class="container">
+        <h2>Låt proffsen göra jobbet</h2>
+        <p>
+          Vi är specialister inom bilvård och bilrekond och har varit verksamma sedan 1988.
+          Vi erbjuder tjänster som biltvätt, invändig rekond samt lackskydd med mer. Hos oss är kvalite och ett väl genomfört arbete högsta prioritet
+        </p>
+        <a href="#">Prislista</a>
+      </div>
+    </section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o7TuYvfYn_c?si=_mgmiDviO85_ABZw&amp;start=77&amp;clip=UgkxJ2WBMtzpWjThmEr94sgGqR0HkzB3wKXZ&amp;clipt=ELDhBBi4iAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         
-     </iframe>
+    </iframe>
+    <br>
+    <button>Big boy button</button>
+
+    <!-- Här kan du lägga till kod om du vill fylla i något i footern -->
+    <footer>
+      <div class="container footer"></div>
+      <h3>Kontaktuppgifter</h3>
+      <p>Enköpingsbilvård@info.se</p>
+      <p>Telefonnummer: 0171-24333</p>
+    </footer>
+  
+     
+
 </body>
 </html>
