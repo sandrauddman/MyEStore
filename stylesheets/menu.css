@@ -1,0 +1,29 @@
+.menu ul{
+	list-style-type: none;
+	padding: 5px;
+}
+.menu li{
+  float: left;
+  /*margin-right is used to put space between the buttons here*/
+  margin-right: 8px;
+  padding: 10px;
+}
+.menu button{
+  background-color: rgba(202, 237, 238, 0.795);
+  border-color: rgba(81, 81, 253, 0.171);
+  border-radius: 20px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  padding: 15px;
+  display: inline-block;         
+            
+             
+ }
+.menu{
+	background-color: rgb(207, 230, 246);
+    display: flex;
+    margin: 0 auto;
+
+     
+                     
+}

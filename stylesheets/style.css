@@ -13,35 +13,7 @@ body {
   text-align: center;
 }
 
-.menu ul{
-	list-style-type: none;
-	padding: 5px;
-}
-.menu li{
-    float: left;
-    /*margin-right is used to put space between the buttons here*/
-    margin-right: 8px;
-}
-.menu button{
-            background-color: rgba(202, 237, 238, 0.514);
-            border-color: rgba(81, 81, 253, 0.171);
-            border-radius: 20px;
-            font-weight: 600;
-            /* text-transform: uppercase; */
-           
-            padding: 15px;
-            display: inline-block;
-             
-        }
-.menu{
-            
-	
-	margin-bottom:25px;
-	
-	
-            
-                     
-}
+
 /* Klassen container använder vi på flera ställen i vår HTML. Den
 gör att varje sektion tar upp 80% av sidans bredd och att det blir
 samma padding över hela sidan. Den styr med andra ord grund-layouten.
@@ -55,7 +27,7 @@ Den behöver du inte ändra i så mycket om du inte vill ändra den
 
 /* Här är styling som gäller för rubriker och text */
 h1 {
-  color: rgb(5, 5, 5);
+  color: rgba(39, 35, 48, 0.856);
   opacity: 1;
   font-size: 65px;
   font-weight: 700;
@@ -80,7 +52,7 @@ p {
 header {
   /* En ny grej är att vi nu lägger in bilden i CSS
   som en bakgrund, här redigerar du den. */
-  background-image: url("images/");
+  background-image: url("../Images/2000_F_330597843_xZDgMm03d40x9cD2wDJNMfArQKNfRGlF.jpg");
   /*opacity:0.5;*/
   background-repeat: no-repeat;
   /* Styr bilden */
@@ -98,7 +70,7 @@ header a {
   border-radius: 40px;
   font-weight: 600;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration:none;
   padding: 25px;
   display: inline-block;
 }
